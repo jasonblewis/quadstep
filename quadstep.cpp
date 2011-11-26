@@ -33,7 +33,12 @@ quadstep::quadstep()
 /////////////////////////////////////////////////////////
 ///////   Pin connections ///////////////////////////////
 /////////////////////////////////////////////////////////
-void quadstep::motor_pins(int motnum,int motor_enable,int motor_dir,int motor_ms1,int motor_ms2,int motor_ms3)
+void quadstep::motor_pins(int motnum,
+                          int motor_enable,
+                          int motor_dir,
+                          int motor_ms1,
+                          int motor_ms2,
+                          int motor_ms3)
 {	
 	if(motnum == 1)
 	{
